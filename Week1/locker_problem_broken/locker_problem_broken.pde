@@ -12,8 +12,11 @@ int Key = 0;
 void setup () {
  //*how large does the screen size need to be to fit all lockers?*
  size(480,250);
+ for (int i = 0; i < lockers.length; i++) {
+   //*assign a initial value to each locker so it does'nt return null
+    lockers[i]=?;
+  } 
 }
-
 
 void draw () {
   //if the Key does not exceed the length then open/close lockers!*
@@ -23,7 +26,7 @@ void draw () {
    for (int n = Key; n < 0; n+=Key+1) {
      
      //*if the locker is open close it. if it's closed, open it!*
-     lockers[n] = 
+     lockers[?] = 
      
 
      
