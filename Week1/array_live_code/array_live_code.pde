@@ -1,24 +1,29 @@
-String[] food;//Declare
+String[] shopInventory;//Declare
 
-food = new String[5];//Create
+shopInventory = new String[5];//Create
 
-food[0]= "apples";//Assign
-food[1]="tomatoes";
-food[2]="tomatos";
-food[3]="potatos";
-food[4]="potatoes";
+shopInventory[0]= "apples";//Assign
+shopInventory[1]="tomatoes";
+shopInventory[2]="tomatos";
+shopInventory[3]="potatos";
+shopInventory[4]="potatoes";
 
-float[] prices = {10.05,5.25,4.33,12.44,3.21,14.31};
+float[] storePrice = {10.05,5.25,4.33,12.44,3.21,14.31};
 
-int[] shoppingList = new int[6];
+int[] receipt = new int[6];
 
-//Create a random list of foods
-for (int i = 0; i < shoppingList.length; i++) {
-  shoppingList[i]=floor(random(food.length));
+//Create a random list of shopInventorys
+for (int i = 0; i < receipt.length; i++) {
+  receipt[i]=floor(random(shopInventory.length));
 }
 
+
+int totalPrice = 0;
+println("Receipt");
 //use the item indexs to access other array elements
-for (int i = 0; i < shoppingList.length; i++) {
-  println(" " + food[shoppingList[i]]);
-  println(" " + prices[shoppingList[i]]);
+for (int i = 0; i < receipt.length; i++) {
+  println(" " + shopInventory[receipt[i]]);
+  println(" " + storePrice[receipt[i]]);
+  totalPrice+=storePrice[receipt[i]];
 }
+println("Total Price: " + totalPrice);
