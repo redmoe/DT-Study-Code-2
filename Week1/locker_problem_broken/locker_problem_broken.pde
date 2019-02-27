@@ -3,47 +3,47 @@
 
 //* things that need fixing *
 
-//*create a 100 locker array*
+//*create a 100 locker array, in this program true will mean the door is open and false closed*
 Boolean[] lockers;
 
 //int for which lockers to open
-int Key = 0;
+int personNumber = 0;
 
 void setup () {
  //*how large does the screen size need to be to fit all lockers?*
  size(480,250);
  for (int i = 0; i < lockers.length; i++) {
-   //*assign a initial value to each locker so it does'nt return null
+   //*assign a initial value to each locker so it does'nt return null and each locker is initally closed
     lockers[i]=?;
   } 
 }
 
 void draw () {
-  //if the Key does not exceed the length then open/close lockers!*
-  if (Key!=lockers.length) {
+  //if the personNumber does not exceed the length then open/close lockers!
+  if (personNumber!=lockers.length) {
     
-    //*make the loop run the same number of times as there are lockers*
-   for (int n = Key; n < 0; n+=Key+1) {
+    //*limit the for loop to the number of lockers*
+   for (int lockerNumber = personNumber; lockerNumber < ???; lockerNumber+=personNumber+1) {
      
      //*if the locker is open close it. if it's closed, open it!*
-     lockers[?] = 
+     lockers[lockerNumber] = 
      
 
      
      //*changes the locker color depending on wheter it is open or not*
-     if (lockers[n]) fill(0); 
+     if (lockers[lockerNumber]) fill(0); 
      
      else fill(0);
      
      //creates a 20 by 5 grid of rectangles
-     rect(n%20*50,floor(n/20)*50,40,40);
+     rect(lockerNumber%20*50,floor(lockerNumber/20)*50,40,40);
      
-     //*get the locker number to be ontop of the matching locker*
+     //*get this text that labels each locker to be ontop of the matching locker*
      fill(0);
-     text(str(n+1),0,0,40,40);       
+     text(str(lockerNumber+1),0,0,40,40);       
 
    }
-   Key++;
+   personNumber++;
   }
   //makes the program stop for a bit to give some animation time
   delay(100);  
