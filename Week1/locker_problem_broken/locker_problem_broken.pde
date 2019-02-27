@@ -30,8 +30,8 @@ void draw () {
      
 
      
-     //*changes the locker color depending on wheter it is open or not*
-     if (lockers[lockerNumber]) fill(0); 
+     //*the locker will be black if open, make it grey if closed*
+     if (lockers[lockerNumber]==true) fill(?); 
      
      else fill(0);
      
@@ -44,7 +44,7 @@ void draw () {
 
    }
    personNumber++;
-  }
+  }  
   //makes the program stop for a bit to give some animation time
   delay(100);  
 }

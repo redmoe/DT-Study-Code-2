@@ -19,11 +19,11 @@ for (int i = 0; i < receipt.length; i++) {
 
 
 int totalPrice = 0;
-println("Receipt");
+println("Receipt:");
 //use the item indexs to access other array elements
 for (int i = 0; i < receipt.length; i++) {
-  println(" " + shopInventory[receipt[i]]);
-  println(" " + storePrice[receipt[i]]);
+  println(shopInventory[receipt[i]]);
+  println("$" + storePrice[receipt[i]]);
   totalPrice+=storePrice[receipt[i]];
 }
 println("Total Price: " + totalPrice);
