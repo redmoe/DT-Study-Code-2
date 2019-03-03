@@ -1,10 +1,9 @@
-##Schedule
+## Schedule
 
-Intro
+### Introduction to Functions
 
-Live Code 1
+### Live Coding Example
 
-Q+A
+### Q+A
 
-Challenge
-
+### Challenge
