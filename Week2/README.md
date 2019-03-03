@@ -1,6 +1,5 @@
-Hello
+##Schedule
 
-Lesson Plan
 Intro
 
 Live Code 1
