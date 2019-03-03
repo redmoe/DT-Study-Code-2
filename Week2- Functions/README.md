@@ -2,9 +2,9 @@
 
 ### Introduction to Functions
 
-### Live Code Introduction
+### Live Code
 
-### Fundmental Example
+### Practical Example
 - Return types and you
 - Arguing about arguments
 - What the heck is a void?
