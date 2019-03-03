@@ -30,10 +30,10 @@ void draw () {
      
 
      
-     //*the locker will be black if open, make it grey if closed*
-     if (lockers[lockerNumber]==true) fill(?); 
+     //*the locker will be black if open, change the fill to white if closed*
+     if (lockers[lockerNumber]==true) fill(127); 
      
-     else fill(0);
+     else ???;
      
      //creates a 20 by 5 grid of rectangles
      rect(lockerNumber%20*50,floor(lockerNumber/20)*50,40,40);
