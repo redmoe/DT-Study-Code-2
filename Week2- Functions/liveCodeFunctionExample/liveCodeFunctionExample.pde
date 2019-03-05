@@ -1,10 +1,10 @@
 //We are going to make baker who takes ingredients and makes them into tasty food
+//
 //using functions, parameters, and return values
 Boolean bool = false;
 int integer=10;
 float floatingPointNumber = 1.33;
 String string="pasta";
-
 
 void setup() {
   bake1();

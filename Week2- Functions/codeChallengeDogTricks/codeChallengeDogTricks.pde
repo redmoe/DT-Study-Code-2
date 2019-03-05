@@ -45,9 +45,8 @@ void DrawDog (int dogSize) {
   rect(0,0,dogSize,dogSize);
 }
 
-//rolls the dog around
 int dogRoll=0;
-
+//uses rotate to create a animation of the dog rolling
 void RollOver() {
    translate(200,200);
     if (dogRoll!=360) {
