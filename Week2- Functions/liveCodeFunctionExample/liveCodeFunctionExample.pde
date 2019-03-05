@@ -13,7 +13,8 @@ void setup() {
   bake3(20,"ice cream");  
   bake4(3,"pie");
   bake4(2,"pie");
-  birthdayParty=bake5(15,"pie");
+  birthdayParty=bake5(1,"pie");
+  
   birthdayParty=bake5(20,"cupcake");
 }
 //fundmental function example
