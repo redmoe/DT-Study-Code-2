@@ -1,11 +1,13 @@
 /*
-This program is a advanced dog simulator designed to teach military-grade functions
+This program is an advanced dog simulator designed to teach military-grade functions
 Your mission: Make the dog do the following in order using only function calls in Draw:
 1. Shake
 2. Bark 4 times
 3. Roll over
 4. Fetch a chew toy and print it out
 5. Draw a dog of size 50
+
+(Also name your dog something fun!)
 */
 String dogName="Dog";
 
