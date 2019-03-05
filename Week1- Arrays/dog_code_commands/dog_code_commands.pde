@@ -16,12 +16,11 @@ void setup() {
 void draw() {
   background(255);
 //!!!Put your dog commands here!!!
-
-
-
-
-
-
+  RollOver();
+  DrawDog(50);
+  Bark(40);
+  println(Fetch(2));
+  ShakeHand();
 }
 void ShakeHand() {
   println(dogName+" shakes your hand");

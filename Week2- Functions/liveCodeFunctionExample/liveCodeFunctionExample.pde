@@ -14,7 +14,6 @@ void setup() {
   bake4(3,"pie");
   bake4(2,"pie");
   birthdayParty=bake5(1,"pie");
-  
   birthdayParty=bake5(20,"cupcake");
 }
 //fundmental function example
@@ -32,7 +31,7 @@ void bake3(int servings, String foodType) {
   println("Baker bakes you "+servings+" "+foodType+"(s)");
 }
 //you can declare the same name
-void bake3b(Boolean ovenWarm, int servings) {
+void bake3(Boolean ovenWarm, int servings) {
   println("Baker bakes you "+servings+" "+ovenWarm+"(s)");
 }
 //Have a student write out another function
