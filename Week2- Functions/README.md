@@ -1,5 +1,5 @@
 ## Schedule for Week 2
-https://docs.google.com/document/d/1EW6ip2N9eJYiXlF8iJmKUwl0I92ZafW2JBSWfqs0Kgc/edit?usp=sharing
+[Discussion Doc](https://docs.google.com/document/d/1EW6ip2N9eJYiXlF8iJmKUwl0I92ZafW2JBSWfqs0Kgc/edit?usp=sharing)
 ### Introduction to Functions
 
 ## What is this? 
