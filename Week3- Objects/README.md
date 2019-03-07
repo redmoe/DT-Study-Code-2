@@ -1,6 +1,6 @@
-## Schedule for Week 2
+# Week 2: Introduction to Classes and Objects
 [Discussion Doc](https://docs.google.com/document/d/1nS25wCRjYUXvA8b8bS8Y4K037x9m2Bff5uUSoJvo0ss/edit?usp=sharing)
-### Introduction to Classes and Objects
+
 
 ## What is a class? 
  - A class is a way to represent a type of idea, made up of data and functions
