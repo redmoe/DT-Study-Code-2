@@ -41,3 +41,6 @@
  - 20 mins
 ### Q+A of Challenge 15 mins
  - Review the solution and answer questions
+ 
+### Resources
+[Processing Docs on Objects](https://processing.org/tutorials/objects/)
