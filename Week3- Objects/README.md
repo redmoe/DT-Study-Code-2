@@ -2,8 +2,8 @@
 
 ## What is a class? 
  - A class is a way to represent a type of idea, made up of data and functions
- - The data is stored in variables
- - The functions are action that when preformed can use that data
+- The data is stored in variables
+- The functions are action that when preformed can use that data
 
 ## What is an object?
  - An object is an instance (individual example) of a class
