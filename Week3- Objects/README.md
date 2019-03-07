@@ -45,5 +45,5 @@
 - Review the solution and answer questions
  
 ### Resources
-[Processing Docs on Objects](https://processing.org/tutorials/objects/)
-[What is Object Oriented Programing?](https://www.youtube.com/watch?v=YcbcfkLzgvs)
+- [Processing Docs on Objects](https://processing.org/tutorials/objects/)
+- [What is Object Oriented Programing?](https://www.youtube.com/watch?v=YcbcfkLzgvs)
