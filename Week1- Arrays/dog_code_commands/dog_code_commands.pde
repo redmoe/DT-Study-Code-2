@@ -11,14 +11,14 @@ String dogName="Dog";
 
 void setup() {
   size(400,400);
-  frameRate(4);
+  frameRate(1);
 }
 void draw() {
   background(255);
 //!!!Put your dog commands here!!!
   RollOver();
-  DrawDog(50);
-  Bark(40);
+  DrawDog(10);
+  Bark(2);
   println(Fetch(2));
   ShakeHand();
 }
@@ -50,7 +50,7 @@ int dogRoll=0;
 void RollOver() {
    translate(200,200);
     if (dogRoll!=360) {
-     dogRoll+=90;
+     dogRoll+=45;
      rotate(radians(dogRoll));
     }
     else {
