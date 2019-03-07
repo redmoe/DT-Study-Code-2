@@ -16,7 +16,7 @@
  
 ### Why and when would you use it?
  - When your code starts to have a lot of variables and functions that need to have the ability to be changed
-- When you have a bunch of variables that are interconnected with each other i.e playerX, playerY, playerName
+ - When you have a bunch of variables that are interconnected with each other i.e playerX, playerY, playerName
 
 ### What is the syntax?
  - class MyClassName{} //most basic class you can get without an error
