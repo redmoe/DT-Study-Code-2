@@ -25,7 +25,7 @@
 ### Notes
  - Common practice is to capitalize class names so as not to be confused with variables and functions
 
-## Live Code
+### Live Code
  - We will be making a traffic generator using Objects and Classes
  - Download introExampleCarsStartingCode
  - It is a code example which does not use Objects and can only show 1 car moving across the screen
