@@ -3,8 +3,8 @@
 //existing class. 
 class BadMole extends Mole {
  
-  BadMole(float moleX, float moleY, float moleSize, float moleTimer, color moleColor){
-    super(moleX, moleY, moleSize, moleTimer, moleColor);
+  Class BadMole(int moleX, float moleY, float moleSize, float moleTimer, color moleColor){
+    super(moleX, y, moleSize, moleTimer, moleColor);
   }
   
 }
