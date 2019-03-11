@@ -12,7 +12,7 @@ void setup() {
  
  myCars = new Car[20];
  for (int i = 0; i < myCars.length; i++) {
-   myCars[i] = new Car(int(random(0,width)),int(random(0,height)));
+   myCars[i] = new Car(color(int(random(0,255)),int(random(0,255)),int(random(0,255))),int(random(0,width)),int(random(0,height)),random(1,10));
  }
  
 }
@@ -49,19 +49,21 @@ void display() {
   rect(xPos,yPos,60,20);
 }
 
-Car myCar = new Car(0,20);
+Car myCar = new Car(color(255,0,255),0,20,3.5);
 
 //TIER 2: Classes
 class Car {
  int xPos;
  int yPos;
  //can we make speed variable?
- int xSpeed=5;
+float xSpeed=5;
  color carColor=255;
- 
- Car(int temporaryX, int temporaryY) {
+ //the consturctor
+ Car(color tempColor, int temporaryX, int temporaryY, float tempSpeed) {
+   carColor=tempColor;
    xPos=temporaryX;
    yPos=temporaryY;
+   xSpeed=tempSpeed;
  }
  void drive() {
    xPos += xSpeed;

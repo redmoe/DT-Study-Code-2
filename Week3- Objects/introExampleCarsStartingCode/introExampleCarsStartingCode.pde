@@ -1,7 +1,7 @@
 int xPos = 0;
 int yPos = 50;
-int xSpeed = 5;
-color carColor = 255;
+float xSpeed = 5;
+color carColor = color(255,0,0);
 
 void setup() {
  size(500,500);
