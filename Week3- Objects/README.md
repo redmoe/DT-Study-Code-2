@@ -30,9 +30,6 @@
 - We will be making a traffic generator using Objects and Classes
 - Download introExampleCarsStartingCode
 - It is a code example which does not use Objects and can only show 1 car moving across the screen
- 
-## Practical Example
-- 15 mins
 
 ### Q+A
 - As small groups come up with five questions to ask about objects
@@ -40,7 +37,8 @@
 [Discussion Doc](https://docs.google.com/document/d/1nS25wCRjYUXvA8b8bS8Y4K037x9m2Bff5uUSoJvo0ss/edit?usp=sharing)
 
 ### Coding Challenge
-- 
+- We will be making a Space Invaders-like using objects
+- Download space_invaders_student as starting code
 - 20 mins
 ### Q+A of Challenge 15 mins
 - Review the solution and answer questions
