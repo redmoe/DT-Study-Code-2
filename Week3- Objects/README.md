@@ -5,7 +5,7 @@
 - When variables are inside of an object, they are known as properties and are the data of that object
 - When functions are inside of an object, they are known as methods and are the actions that the object can preform
 
-## What is an object? is
+## What is an object?
 - An object is an instance (individual example) of a class
 - For example, your phone has the class of Phone. We may have the same type of phone and they may be able to preform the same functions like texting, browsing the web, etc. but our phones don't share the same libary of photos or contacts
 - Or cats! All cats are of the animal kingdom (class) Cat, but they can have diffrent coats of fur, eye colors, moodiness (properties) that change how they act (methods).
